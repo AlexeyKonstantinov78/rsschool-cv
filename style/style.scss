@@ -1,0 +1,93 @@
+
+$color: #e0e0e0;
+
+html {
+  font-size: 10px;
+}
+
+h1,
+h2,
+ul,
+li,
+p,
+a {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+h2 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+header {
+  background-color: $color;
+}
+
+footer {
+  background-color: $color;
+}
+
+li,
+p {
+  font-size: 2rem;
+}
+
+ul {
+  padding-left: 2.1rem;
+}
+
+.fix-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0.5rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+    &__h1{
+    font-size: 7rem;
+    }
+}
+
+.main-content-courses-card__title {
+  margin-bottom: 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    &__github a,
+    &__year {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+}
+
+@media (max-width: 528px) {
+  html {
+    font-size: 7px;
+  }
+
+  .header-content__img {
+    display: none;
+  }
+
+  .footer-content {
+    display: inline-block;
+  }
+
+  .footer-content div {
+    margin-bottom: 1rem;
+  }
+}
