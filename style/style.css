@@ -1,0 +1,85 @@
+html {
+  font-size: 10px;
+}
+
+h1,
+h2,
+ul,
+li,
+p,
+a {
+  margin: 0 0;
+  padding: 0 0;
+}
+
+h2 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+
+header {
+  background-color: #e0e0e0;
+}
+
+footer {
+  background-color: #e0e0e0;
+}
+
+li,
+p {
+  font-size: 2rem;
+}
+
+ul {
+  padding-left: 2.1rem;
+}
+
+.fix-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 0.5rem;
+}
+
+.header-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-content__h1 {
+  font-size: 7rem;
+}
+
+.main-content-courses-card__title {
+  margin-bottom: 1rem;
+}
+
+.footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-content__github a, .footer-content__year {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
