@@ -1,2 +1,2 @@
 # Hello
-[link to CV](https://AlexeyKonstantinov78.github.io/rsschool-cv/CV).
+[link to CV](https://AlexeyKonstantinov78.github.io/rsschool-cv/cv).
