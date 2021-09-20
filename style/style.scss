@@ -73,3 +73,21 @@ ul {
       font-weight: bold;
     }
 }
+
+@media (max-width: 528px) {
+  html {
+    font-size: 7px;
+  }
+
+  .header-content__img {
+    display: none;
+  }
+
+  .footer-content {
+    display: inline-block;
+  }
+
+  .footer-content div {
+    margin-bottom: 1rem;
+  }
+}
