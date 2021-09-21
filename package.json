@@ -1,0 +1,7 @@
+{
+  "extends": "linthtml-config-htmlacademy",
+  "devDependencies": {
+    "linthtml-config-htmlacademy": "^1.0.3",
+    "stylelint-config-htmlacademy": "^0.1.10"
+  }
+}
